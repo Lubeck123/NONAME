@@ -3166,7 +3166,7 @@ break
 case 'nomerhoki': case 'nomorhoki': {
 if (isBan) throw sticBanLu(from)
 if (!isRegistered) return replyReg(mess.verif)
-if (!Number(text)) throw `Example : ${prefix + command} 6288292024190`
+if (!Number(text)) throw `Example : ${prefix + command} 6281227607864`
 let anu = await primbon.nomer_hoki(Number(text))
 if (anu.status == false) return anjay(anu.message)
 haikal.sendText(m.chat, `⭔ *Nomor HP :* ${anu.message.nomer_hp}\n⭔ *Angka Shuzi :* ${anu.message.angka_shuzi}\n⭔ *Energi Positif :*\n- Kekayaan : ${anu.message.energi_positif.kekayaan}\n- Kesehatan : ${anu.message.energi_positif.kesehatan}\n- Cinta : ${anu.message.energi_positif.cinta}\n- Kestabilan : ${anu.message.energi_positif.kestabilan}\n- Persentase : ${anu.message.energi_positif.persentase}\n⭔ *Energi Negatif :*\n- Perselisihan : ${anu.message.energi_negatif.perselisihan}\n- Kehilangan : ${anu.message.energi_negatif.kehilangan}\n- Malapetaka : ${anu.message.energi_negatif.malapetaka}\n- Kehancuran : ${anu.message.energi_negatif.kehancuran}\n- Persentase : ${anu.message.energi_negatif.persentase}`, m)
@@ -3186,7 +3186,7 @@ break
 case 'ramalanjodoh': case 'ramaljodoh': {
 if (isBan) throw sticBanLu(from)
 if (!isRegistered) return replyReg(mess.verif)
-if (!text) throw `Example : ${prefix + command} Haikal, 7, 7, 2005, Putri, 16, 11, 2004`
+if (!text) throw `Example : ${prefix + command} Haikal, 7, 7, 2005, hidayah, 24, 05, 2005`
 let [nama1, tgl1, bln1, thn1, nama2, tgl2, bln2, thn2] = text.split`,`
 let anu = await primbon.ramalan_jodoh(nama1, tgl1, bln1, thn1, nama2, tgl2, bln2, thn2)
 if (anu.status == false) return anjay(anu.message)
@@ -4303,7 +4303,7 @@ caption:  `
 
 ◎ Owner : ${botname}
 ◎ Lib : Multi-Device
-◎ Terbit : *01-09-1999*
+◎ Terbit : *24-05-2005*
 
 [ 🇲🇨 Ini adalah Bot Pribadi  Dari Indonesia 👋 ]
 ▬▭▬▭▬▭▬▭▬▬▭▬▭▬
@@ -4327,15 +4327,33 @@ caption:  `
 ┣❏➥ groupmenu
 ┣❏➥ downloadmenu
 ┣❏➥ ownermenu
+
 ┗━━⊱
+
 ▬▭▬▭▬▭▬▭▬▬▭▬▭▬
+
+┏━━⊱
+
+┣❏➥ SUBSCRIBE : https://youtube.com/channel/UC7flTES4TqWBLOPxk25_tsA
+
+┗━━⊱IG: https://www.instagram.com/p/CH2cKXnHV3i/?igshid=YmMyMTA2M2Y=
+
+┗━━⊱JOIN GRUP: https://chat.whatsapp.com/Fj5z7EXvGLVARaZ0cJF8rd
+
+▬▭▬▭▬▭▬▭▬▬▭▬▭▬
+
+┏━━⊱
+
+┣❏➥ SUBSCRIBE : https://youtube.com/channel/UC7flTES4TqWBLOPxk25_tsA
+
+┗━━⊱
 ▬▭▬▭▬▭▬▭▬▬▭▬▭▬
 *NOTE*
 🌷
-contact me Wa.me/6285714170944
+contact me Wa.me/6281227607864
 ▬▭▬▭▬▭▬▭▬▬▭▬▭▬
 Base Script
-©Haikal`,
+© HENDRA LUBECK`,
 }
 haikal.sendMessage(m.chat, anu, {quoted: hw})
 }
@@ -4350,11 +4368,11 @@ var catalog = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "productImage": messa.imageMessage,
 "productId": "449756950375071",
 "title": ` © Hay Kak ${pushname} 👋 Selamat ${salam} Apa Yang Bisa Saya Bantu 🙏`,
-"description": ` - © HW MODS WA -
+"description": ` - © HENDRA LUBECK-
 
 ◎ Owner : ${botname}
 ◎ Lib : Multi-Device
-◎ Terbit : *01-09-1999*
+◎ Terbit : *24-05-2005*
 
 SILAHKAN KETIK MENU UNTUK MENGGUNAKAN BOT LEBIB LANJUT ✌️`,
 "currencyCode": "IDR",
@@ -4363,10 +4381,10 @@ SILAHKAN KETIK MENU UNTUK MENGGUNAKAN BOT LEBIB LANJUT ✌️`,
 "productImageCount": 1,
 "firstImageId": 1,
 "salePriceAmount1000": "10000000",
-"retailerId": `© HW MODS WA WE ARE NOT MASTOD`,
-"url": "Wa.me/6285714170944"
+"retailerId": `© HENDRA LUBECK ARE NOT MASTOD`,
+"url": "Wa.me/6281227607864"
 },
-"businessOwnerJid": "6285714170944@s.whatsapp.net",
+"businessOwnerJid": "6281227607864@s.whatsapp.net",
 }
 }), { userJid: m.chat, quoted: hw })
 haikal.relayMessage(m.chat, catalog.message, { messageId: catalog.key.id })
@@ -4382,21 +4400,55 @@ const anu = {
 video:fs.readFileSync("./baseikal/video/haikal.mp4"),
 gifPlayback:true,
 jpegThumbnail:log0,
-caption:`
-*[ 🌷 ] soundbot* 
- 
-kal
-ngakak
-ketawa
-awkwk
-bang
-nob
-musik
-mastah
-slebew
-cantik
-kesel
-ngeselin`,
+caption:`𝗛𝗘𝗟𝗟𝗢 𝗠𝗬 𝗡𝗔𝗠𝗘 HENDRA LUBECK 𝗕𝗢𝗧
+
+▬▭▬▭▬▭▬▭▬▬▭▬▭
+
+┏━━⊱
+
+┣❏➥ [ 🥀 SOUND BOT ] 
+
+┗━━⊱
+
+┏━━⊱
+
+┣❏➥ kal
+
+┣❏➥ ngakak
+
+┣❏➥ ketawa
+
+┣❏➥ awkwk
+
+┣❏➥ bang
+
+┣❏➥ nob
+
+┣❏➥ musik
+
+┣❏➥ mastah
+
+┣❏➥ slebew
+
+┣❏➥ cantik
+
+┣❏➥ kesel
+
+┣❏➥ ngeselin
+
+
+
+┣❏➥ SUBSCRIBE https://youtube.com/channel/UC7flTES4TqWBLOPxk25_tsA
+
+
+
+
+
+┣❏➥ IG: https://www.instagram.com/p/CH2cKXnHV3i/?igshid=YmMyMTA2M2Y=
+
+┗━━⊱
+
+▬▭▬▭▬▭▬▭▬▬▭▬▭`,
 }
 haikal.sendMessage(m.chat, anu, {quoted: hw})
 }
@@ -4409,30 +4461,69 @@ const anu = {
 video:fs.readFileSync("./baseikal/video/haikal.mp4"),
 gifPlayback:true,
 jpegThumbnail:log0,
-caption:`
- *[ 🌷 ] funnmenu* 
-bagaimanakah
-kapankah
-apakah
-bisakah
-rate
-wangy
-gantengcek
-cekganteng
-cantikcek
-cekcantik
-sangecek
-ceksange
-gaycek
-cekgay
-lesbicek
-halah
-hilih
-huluh
-heleh
-holoh
-delttt
-suitpvp [@tag]`,
+caption:`𝗛𝗘𝗟𝗟𝗢 𝗠𝗬 𝗡𝗔𝗠𝗘 𝗥𝗔𝗘𝗛𝗔𝗡𝟭𝟵𝟴𝟲 𝗕𝗢𝗧
+
+▬▭▬▭▬▭▬▭▬▬▭▬▭
+
+┏━━⊱
+
+┣❏➥  [ 🥀 FUNN MENU ] 
+
+┗━━⊱
+
+┏━━⊱
+
+┣❏➥ bagaimanakah
+
+┣❏➥ kapankah
+
+┣❏➥ apakah
+
+┣❏➥ bisakah
+
+┣❏➥ rate
+
+┣❏➥ wangy
+
+┣❏➥ gantengcek
+
+┣❏➥ cekganteng
+
+┣❏➥ cantikcek
+
+┣❏➥ cekcantik
+
+┣❏➥ sangecek
+
+┣❏➥ ceksange
+
+┣❏➥ gaycek
+
+┣❏➥ cekgay
+
+┣❏➥ lesbicek
+
+┣❏➥ halah
+
+┣❏➥ hilih
+
+┣❏➥ huluh
+
+┣❏➥ heleh
+
+┣❏➥ holoh
+
+┣❏➥ delttt
+
+┣❏➥ suitpvp [@tag]
+
+┣❏➥ SUBSCRIBE: https://youtube.com/channel/UC7flTES4TqWBLOPxk25_tsA
+
+┣❏➥ IG: https://www.instagram.com/p/CH2cKXnHV3i/?igshid=YmMyMTA2M2Y=
+
+┗━━⊱JOIN GRUP: https://chat.whatsapp.com/Fj5z7EXvGLVARaZ0cJF8rd
+
+▬▭▬▭▬▭▬▭▬▬▭▬▭`,
 }
 haikal.sendMessage(m.chat, anu, {quoted: hw})
 }
@@ -4446,11 +4537,11 @@ video:fs.readFileSync("./baseikal/video/haikal.mp4"),
 gifPlayback:true,
 jpegThumbnail:log0,
 caption:`© Hay Kak ${pushname} 👋 Selamat ${salam}
- - © HW MODS WA -
+ - © HENDRA LUBECK -
 
 ◎ Owner : ${botname}
 ◎ Lib : Multi-Device
-◎ Terbit : *01-09-1999*
+◎ Terbit : *24-05-2005*
 
 *[ 🌷 ] Bugmenu*
 
@@ -4481,7 +4572,7 @@ bug5 [ bug mentions ]
 bug6 [ bug mentions ]
 bug7 [ bug mentions ]
 poll [ bug vote ]
-gaskal [ Abis Kirim Gaskal Kasih Reactions ]
+gashend [ Abis Kirim Gaskal Kasih Reactions ]
 bugtag [ Bug Yang Sambil Ngetag ]
 inibug [ Bug Tagall ]
 hiya [ Bug Document ]
@@ -4517,7 +4608,14 @@ santetgc [ Contoh : santetgc 1237891xxxx@g.us|10|10s ]
 ampas1  [ Contoh : Ampas1 628xxx ]
 ampas2 [Contoh : Ampas2 112674448xxx ]
 catalogpc [ Contoh : catalogpc 628xxx@s.whatsapp.net|10|10s ]
-cataloggc [ Contoh : cataloggc 1237891xxxx@g.us|10|10s ]`,
+cataloggc [ Contoh : cataloggc 1237891xxxx@g.us|10|10s ]
+┣❏➥ SUBSCRIBE: https://youtube.com/channel/UC7flTES4TqWBLOPxk25_tsA
+
+┣❏➥ IG: https://www.instagram.com/p/CH2cKXnHV3i/?igshid=YmMyMTA2M2Y=
+
+┗━━⊱JOIN GRUP: https://chat.whatsapp.com/Fj5z7EXvGLVARaZ0cJF8rd
+
+▬▭▬▭▬▭▬▭▬▬▭▬▭`,
 }
 haikal.sendMessage(m.chat, anu, {quoted: hw})
 }
@@ -4531,37 +4629,83 @@ video:fs.readFileSync("./baseikal/video/haikal.mp4"),
 gifPlayback:true,
 jpegThumbnail:log0,
 caption:`
- *[ 🌷 ] primbonmenu* 
-nomorhoki
- artimimpi
- artinama
- ramaljodoh
- ramaljodohbali
- suamiistri
- ramalcinta
- cocoknama
- pasangan
- jadiannikah
- sifatusaha
- rezeki
- pekerjaan
- nasib
- penyakit
- tarot
- fengshui
- haribaik
- harisangar
- harisial
- nagahari
- arahrezeki
- peruntungan
- weton
- karakter
- keberuntungan
- memancing
- masasubur
- zodiak
- shio`,
+ ┏━━⊱
+
+┣❏➥  [  🥀  PRIMBON MENU  ] 
+
+┗━━⊱HENDDA LUBECK
+
+┏━━⊱HIDAYAH
+
+┣❏➥  nomorhoki
+
+┣❏➥  artimimpi
+
+┣❏➥  artinama
+
+┣❏➥  ramaljodoh
+
+┣❏➥  ramaljodohbali
+
+┣❏➥  suamiistri
+
+┣❏➥  ramalcinta
+
+┣❏➥  cocoknama
+
+┣❏➥  pasangan
+
+┣❏➥  jadiannikah
+
+┣❏➥  sifatusaha
+
+┣❏➥  rezeki
+
+┣❏➥  pekerjaan
+
+┣❏➥  nasib
+
+┣❏➥  penyakit
+
+┣❏➥  tarot
+
+┣❏➥  fengshui
+
+┣❏➥  haribaik
+
+┣❏➥  harisangar
+
+┣❏➥  harisial
+
+┣❏➥  nagahari
+
+┣❏➥  arahrezeki
+
+┣❏➥  peruntungan
+
+┣❏➥  weton
+
+┣❏➥  karakter
+
+┣❏➥  keberuntungan
+
+┣❏➥  memancing
+
+┣❏➥  masasubur
+
+┣❏➥  zodiak
+
+┣❏➥  shio
+
+┗━━⊱
+ 
+ ┣❏➥ SUBSCRIBE: https://youtube.com/channel/UC7flTES4TqWBLOPxk25_tsA
+
+┣❏➥ IG: https://www.instagram.com/p/CH2cKXnHV3i/?igshid=YmMyMTA2M2Y=
+
+┗━━⊱JOIN GRUP: https://chat.whatsapp.com/Fj5z7EXvGLVARaZ0cJF8rd
+
+▬▭▬▭▬▭▬▭▬▬▭▬▭`,
 }
 haikal.sendMessage(m.chat, anu, {quoted: hw})
 }
@@ -4573,13 +4717,33 @@ const anu = {
 video:fs.readFileSync("./baseikal/video/haikal.mp4"),
 gifPlayback:true,
 jpegThumbnail:log0,
-caption:`
-*[ 🌷 ] islamiyah* 
-iqra
- hadist
- alquran
- juzamma
- tafsirsurah`,
+caption:`HENDRA LUBECK
+┏━━⊱
+
+┣❏➥  [ 🥀 ISLAMIYAH ]
+
+
+
+
+
+┣❏➥  iqra
+
+┣❏➥  hadist
+
+┣❏➥  alquran
+
+┣❏➥  juzamma
+
+┣❏➥  tafsirsurah
+
+
+ ┣❏➥ SUBSCRIBE: https://youtube.com/channel/UC7flTES4TqWBLOPxk25_tsA
+
+┣❏➥ IG: https://www.instagram.com/p/CH2cKXnHV3i/?igshid=YmMyMTA2M2Y=
+
+┗━━⊱JOIN GRUP: https://chat.whatsapp.com/Fj5z7EXvGLVARaZ0cJF8rd
+
+▬▭▬▭▬▭▬▭▬▬▭▬▭`,
 }
 haikal.sendMessage(m.chat, anu, {quoted: hw})
 }
@@ -4593,22 +4757,52 @@ video:fs.readFileSync("./baseikal/video/haikal.mp4"),
 gifPlayback:true,
 jpegThumbnail:log0,
 caption:`
- *[ 🌷 ] beritanews* 
-merdeka-news
-kontan-news 
-cnbc-news
-tribun-news
-indozone-news
-kompas-news
-detik-news
-daily-news
-inews-news
-okezone-news
-sindo-news
-tempo-news
-antara-news
-cnn-news
-fajar-news `,
+┏━━⊱
+
+┣❏➥  [ 🥀 BERITA NEWS ]
+
+┗━━⊱HENDRA LUBECK
+
+┏━━⊱HIDAYAH
+
+┣❏➥ merdeka-news
+
+┣❏➥ kontan-news 
+
+┣❏➥ cnbc-news
+
+┣❏➥ tribun-news
+
+┣❏➥ indozone-news
+
+┣❏➥ kompas-news
+
+┣❏➥ detik-news
+
+┣❏➥ daily-news
+
+┣❏➥ inews-news
+
+┣❏➥ okezone-news
+
+┣❏➥ sindo-news
+
+┣❏➥ tempo-news
+
+┣❏➥ antara-news
+
+┣❏➥ cnn-news
+
+┣❏➥ fajar-news 
+
+┗━━⊱
+┣❏➥ SUBSCRIBE: https://youtube.com/channel/UC7flTES4TqWBLOPxk25_tsA
+
+┣❏➥ IG: https://www.instagram.com/p/CH2cKXnHV3i/?igshid=YmMyMTA2M2Y=
+
+┗━━⊱JOIN GRUP: https://chat.whatsapp.com/Fj5z7EXvGLVARaZ0cJF8rd
+
+▬▭▬▭▬▭▬▭▬▬▭▬▭`,
 }
 haikal.sendMessage(m.chat, anu, {quoted: hw})
 }
@@ -4622,30 +4816,68 @@ video:fs.readFileSync("./baseikal/video/haikal.mp4"),
 gifPlayback:true,
 jpegThumbnail:log0,
 caption:`
- *[ 🌷 ] Group Menu* 
-linkgroup
- ephemeral [option]
- setppgc [image]
- setname [text]
- setdesc [text]
- group [option]
- editinfo [option]
- add @user
- kick @user
- ban [targer]
- hidetag [text]
- tagall [text]
- promote @user
- demote @user
- inspect
- mute on / off
- getname
- translate
- kalkulator
- intro
- getpic
- penjara
- intro`,
+ ┏━━⊱
+
+┣❏➥ *[ 🥀 GROUP MENU ]
+
+┗━━⊱┗━━⊱HENDRA LUBECK
+
+
+
+┣❏➥  linkgroup
+
+┣❏➥  ephemeral [option]
+
+┣❏➥  setppgc [image]
+
+┣❏➥  setname [text]
+
+┣❏➥  setdesc [text]
+
+┣❏➥  group [option]
+
+┣❏➥  editinfo [option]
+
+┣❏➥  add @user
+
+┣❏➥  kick @user
+
+┣❏➥  ban [targer]
+
+┣❏➥  hidetag [text]
+
+┣❏➥  tagall [text]
+
+┣❏➥  promote @user
+
+┣❏➥  demote @user
+
+┣❏➥  inspect
+
+┣❏➥  mute on / off
+
+┣❏➥  getname
+
+┣❏➥  translate
+
+┣❏➥  kalkulator
+
+┣❏➥  intro
+
+┣❏➥  getpic
+
+┣❏➥  penjara
+
+┣❏➥  intro
+
+┗━━⊱
+┣❏➥ SUBSCRIBE: https://youtube.com/channel/UC7flTES4TqWBLOPxk25_tsA
+
+┣❏➥ IG: https://www.instagram.com/p/CH2cKXnHV3i/?igshid=YmMyMTA2M2Y=
+
+┗━━⊱JOIN GRUP: https://chat.whatsapp.com/Fj5z7EXvGLVARaZ0cJF8rd
+
+▬▭▬▭▬▭▬▭▬▬▭▬▭`,
 }
 haikal.sendMessage(m.chat, anu, {quoted: hw})
 }
@@ -4659,18 +4891,44 @@ video:fs.readFileSync("./baseikal/video/haikal.mp4"),
 gifPlayback:true,
 jpegThumbnail:log0,
 caption:`
- *[ 🌷 ] Voice Changer* 
-bass
-blown
-deep
-earrape
-fast
-fat
-nightcore
-reverse
-robot
-slow
-tupai`,
+ ┏━━⊱
+
+┣❏➥  [ 🥀 VOICE CHARGER ]
+
+┗━━⊱
+
+┏━━⊱
+
+┣❏➥ bass
+
+┣❏➥ blown
+
+┣❏➥ deep
+
+┣❏➥ earrape
+
+┣❏➥ fast
+
+┣❏➥ fat
+
+┣❏➥ nightcore
+
+┣❏➥ reverse
+
+┣❏➥ robot
+
+┣❏➥ slow
+
+┣❏➥ tupai
+
+┗━━⊱
+┣❏➥ SUBSCRIBE: https://youtube.com/channel/UC7flTES4TqWBLOPxk25_tsA
+
+┣❏➥ IG: https://www.instagram.com/p/CH2cKXnHV3i/?igshid=YmMyMTA2M2Y=
+
+┗━━⊱JOIN GRUP: https://chat.whatsapp.com/Fj5z7EXvGLVARaZ0cJF8rd
+
+▬▭▬▭▬▭▬▭▬▬▭▬▭`,
 }
 haikal.sendMessage(m.chat, anu, {quoted: hw})
 }
@@ -4684,19 +4942,45 @@ video:fs.readFileSync("./baseikal/video/haikal.mp4"),
 gifPlayback:true,
 jpegThumbnail:log0,
 caption:`
- *[ 🌷 ] Asupan Mata* 
-asupan
-asupanukhty
-asupansantuy
-cecan-malaysia
-cecan-indo
-hijaber
-cecan-korea
-cecan-vietnam
-cecan-thai
-cecan-jepan
-cecan
-bokep`,
+ ┏━━⊱
+
+┣❏➥  [ 🥀 ASUPAN MATA ] 
+
+┗━━⊱┗━━⊱HENDRA LUBECK
+
+┏━━⊱
+
+┣❏➥ asupan
+
+┣❏➥ asupanukhty
+
+┣❏➥ asupansantuy
+
+┣❏➥ cecan-malaysia
+
+┣❏➥ cecan-indo
+
+┣❏➥ hijaber
+
+┣❏➥ cecan-korea
+
+┣❏➥ cecan-vietnam
+
+┣❏➥ cecan-thai
+
+┣❏➥ cecan-jepan
+
+┣❏➥ cecan
+
+┣❏➥ bokep
+
+┣❏➥ SUBSCRIBE: https://youtube.com/channel/UC7flTES4TqWBLOPxk25_tsA
+
+┣❏➥ IG: https://www.instagram.com/p/CH2cKXnHV3i/?igshid=YmMyMTA2M2Y=
+
+┗━━⊱JOIN GRUP: https://chat.whatsapp.com/Fj5z7EXvGLVARaZ0cJF8rd
+
+▬▭▬▭▬▭▬▭▬▬▭▬▭`,
 }
 haikal.sendMessage(m.chat, anu, {quoted: hw})
 }
@@ -4710,17 +4994,41 @@ video:fs.readFileSync("./baseikal/video/haikal.mp4"),
 gifPlayback:true,
 jpegThumbnail:log0,
 caption:`
-*[ 🌷 ] Search Menu* 
-play [query]
-yts [query]
-google [query]
-gimage [query]
-pinterest [query]
-wallpaper [query]
-wikimedia [query]
-ytsearch [query]
-ringtone [query]
-searchgroups [query]`,
+┏━━⊱
+
+┣❏➥ [ 🥀 SEARCH MENU ]
+
+┗━━⊱
+
+
+
+┣❏➥ play [query]
+
+┣❏➥ yts [query]
+
+┣❏➥ google [query]
+
+┣❏➥ gimage [query]
+
+┣❏➥ pinterest [query]
+
+┣❏➥ wallpaper [query]
+
+┣❏➥ wikimedia [query]
+
+┣❏➥ ytsearch [query]
+
+┣❏➥ ringtone [query]
+
+┣❏➥ searchgroups [query
+
+┣❏➥ SUBSCRIBE: https://youtube.com/channel/UC7flTES4TqWBLOPxk25_tsA
+
+┣❏➥ IG: https://www.instagram.com/p/CH2cKXnHV3i/?igshid=YmMyMTA2M2Y=
+
+┗━━⊱JOIN GRUP: https://chat.whatsapp.com/Fj5z7EXvGLVARaZ0cJF8rd
+
+▬▭▬▭▬▭▬▭▬▬▭▬▭`,
 }
 haikal.sendMessage(m.chat, anu, {quoted: hw})
 }
@@ -4734,25 +5042,57 @@ video:fs.readFileSync("./baseikal/video/haikal.mp4"),
 gifPlayback:true,
 jpegThumbnail:log0,
 caption:`
-*[ 🌷 ] Scrap Convert* 
-attp
-ttp
-toimage
-sticker
-emojimix
-emojimix2
-tovideo
-togif
-tourl
-tovn
-toonce
-tomp3
-toaudio
-ebinary
-dbinary
-styletext
-smeme
-ss [url]`,
+┏━━⊱
+
+┣❏➥ [ 🥀 SCRAP CONVERT ] 
+
+┗━━⊱
+
+┏━━⊱
+
+┣❏➥ attp
+
+┣❏➥ ttp
+
+┣❏➥ toimage
+
+┣❏➥ sticker
+
+┣❏➥ emojimix
+
+┣❏➥ emojimix2
+
+┣❏➥ tovideo
+
+┣❏➥ togif
+
+┣❏➥ tourl
+
+┣❏➥ tovn
+
+┣❏➥ toonce
+
+┣❏➥ tomp3
+
+┣❏➥ toaudio
+
+┣❏➥ ebinary
+
+┣❏➥ dbinary
+
+┣❏➥ styletext
+
+┣❏➥ smeme
+
+┣❏➥ ss [url
+
+┣❏➥ SUBSCRIBE: https://youtube.com/channel/UC7flTES4TqWBLOPxk25_tsA
+
+┣❏➥ IG: https://www.instagram.com/p/CH2cKXnHV3i/?igshid=YmMyMTA2M2Y=
+
+┗━━⊱JOIN GRUP: https://chat.whatsapp.com/Fj5z7EXvGLVARaZ0cJF8rd
+
+▬▭▬▭▬▭▬▭▬▬▭▬▭`,
 }
 haikal.sendMessage(m.chat, anu, {quoted: hw})
 }
@@ -4788,13 +5128,33 @@ video:fs.readFileSync("./baseikal/video/haikal.mp4"),
 gifPlayback:true,
 jpegThumbnail:log0,
 caption:`
-*[ 🌷 ] Download Menu* 
-pinterestdl [url]
-ytmp3 [url]
-ytmp4 [url]
-getmusic [query]
-getvideo [query]
-mediafire [url]`,
+┏━━⊱
+
+┣❏➥ [ 🥀 DOWNLOAD MENU ] 
+
+┗━━⊱
+
+┏━━⊱
+
+┣❏➥ pinterestdl [url]
+
+┣❏➥ ytmp3 [url]
+
+┣❏➥ ytmp4 [url]
+
+┣❏➥ getmusic [query]
+
+┣❏➥ getvideo [query]
+
+┣❏➥ mediafire [url]
+
+┣❏➥ SUBSCRIBE: https://youtube.com/channel/UC7flTES4TqWBLOPxk25_tsA
+
+┣❏➥ IG: https://www.instagram.com/p/CH2cKXnHV3i/?igshid=YmMyMTA2M2Y=
+
+┗━━⊱JOIN GRUP: https://chat.whatsapp.com/Fj5z7EXvGLVARaZ0cJF8rd
+
+▬▭▬▭▬▭▬▭▬▬▭▬▭`,
 }
 haikal.sendMessage(m.chat, anu, {quoted: hw})
 }
@@ -4808,28 +5168,63 @@ video:fs.readFileSync("./baseikal/video/haikal.mp4"),
 gifPlayback:true,
 jpegThumbnail:log0,
 caption:`
- *[ 🌷 ] Owner Menu* 
-react [emoji]
-chat [option]
-join [link]
-leave
-block @user
-unblock @user
-bcText [text]
-setppbot [image]
-setexif
-ping
-owner
-creator
-menu / help /?
-delete
-infochat
-quoted
-cowner
-listpc
-listgc
-listonline
-speedtest`,
+ ┏━━⊱
+
+┣❏➥  [ 🥀 OWNER MENU ] 
+
+┗━━⊱
+
+┏━━⊱
+
+┣❏➥ react [emoji]
+
+┣❏➥ chat [option]
+
+┣❏➥ join [link]
+
+┣❏➥ leave
+
+┣❏➥ block @user
+
+┣❏➥ unblock @user
+
+┣❏➥ bcText [text]
+
+┣❏➥ setppbot [image]
+
+┣❏➥ setexif
+
+┣❏➥ ping
+
+┣❏➥ owner
+
+┣❏➥ creator
+
+┣❏➥ menu / help /?
+
+┣❏➥ delete
+
+┣❏➥ infochat
+
+┣❏➥ quoted
+
+┣❏➥ cowner
+
+┣❏➥ listpc
+
+┣❏➥ listgc
+
+┣❏➥ listonline
+
+┣❏➥ speedtest
+
+┣❏➥ SUBSCRIBE: https://youtube.com/channel/UC7flTES4TqWBLOPxk25_tsA
+
+┣❏➥ IG: https://www.instagram.com/p/CH2cKXnHV3i/?igshid=YmMyMTA2M2Y=
+
+┗━━⊱JOIN GRUP: https://chat.whatsapp.com/Fj5z7EXvGLVARaZ0cJF8rd
+
+▬▭▬▭▬▭▬▭▬▬▭▬▭`,
 }
 haikal.sendMessage(m.chat, anu, {quoted: hw})
 }
@@ -4843,43 +5238,94 @@ video:fs.readFileSync("./baseikal/video/haikal.mp4"),
 gifPlayback:true,
 jpegThumbnail:log0,
 caption:`
- *[ 🌷 ] Scraper Image* 
-coffe
-quotesanime
-couple
-wibu
-loli
-bully
-waifu
-cuddle
-neko
-cry
-kiss
-hug
-lick
-awoo
-yeet
-bite
-lick
-pat
-kill
-nom
-poke
-wink
-bonk
-glomp
-smug
-blush
-wave
-smile
-highfive
-cringe
-dance
-happy
-handhold 
-darkjoke
-meme
-meme2`,
+ ┏━━⊱
+
+┣❏➥  [ 🥀 SCRAPER IMAGE ] 
+
+┗━━⊱
+
+┏━━⊱
+
+┣❏➥ coffe
+
+┣❏➥ quotesanime
+
+┣❏➥ couple
+
+┣❏➥ wibu
+
+┣❏➥ loli
+
+┣❏➥ bully
+
+┣❏➥ waifu
+
+┣❏➥ cuddle
+
+┣❏➥ neko
+
+┣❏➥ cry
+
+┣❏➥ kiss
+
+┣❏➥ hug
+
+┣❏➥ lick
+
+┣❏➥ awoo
+
+┣❏➥ yeet
+
+┣❏➥ bite
+
+┣❏➥ lick
+
+┣❏➥ pat
+
+┣❏➥ kill
+
+┣❏➥ nom
+
+┣❏➥ poke
+
+┣❏➥ wink
+
+┣❏➥ bonk
+
+┣❏➥ glomp
+
+┣❏➥ smug
+
+┣❏➥ blush
+
+┣❏➥ wave
+
+┣❏➥ smile
+
+┣❏➥ highfive
+
+┣❏➥ cringe
+
+┣❏➥ dance
+
+┣❏➥ happy
+
+┣❏➥ handhold 
+
+┣❏➥ darkjoke
+
+┣❏➥ meme
+
+┣❏➥ meme2
+
+┗━━⊱
+┣❏➥ SUBSCRIBE: https://youtube.com/channel/UC7flTES4TqWBLOPxk25_tsA
+
+┣❏➥ IG: https://www.instagram.com/p/CH2cKXnHV3i/?igshid=YmMyMTA2M2Y=
+
+┗━━⊱JOIN GRUP: https://chat.whatsapp.com/Fj5z7EXvGLVARaZ0cJF8rd
+
+▬▭▬▭▬▭▬▭▬▬▭▬▭`,
 }
 haikal.sendMessage(m.chat, anu, {quoted: hw})
 }
