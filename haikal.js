@@ -228,8 +228,8 @@ const anakau = {
 video:fs.readFileSync("./baseikal/video/haikal.mp4"),
 gifPlayback:true,
 jpegThumbnail:log0,
-caption:`Haii 👋 Kak ${pushname} Selamat ${salam} *Aku Adalah Bot Hw Mods*
-Agar Bot Bisa Di Gunakan Silahkan Ketik [ Verifikasi ] Di Group Apapun
+caption:`Haii 👋 Kak ${pushname} Selamat ${salam} *Aku Adalah Bot HENDRA LUBECK*
+Agar Bot Bisa Di Gunakan Silahkan Ketik [ Verifikasi ] 
  `
 }
 haikal.sendMessage(m.chat, anakau, {quoted: hw})
